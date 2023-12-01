@@ -1,5 +1,5 @@
 # Use an official node runtime as a parent image
-FROM node:alpine
+FROM node:21.2-alpine3.18
 
 # Copy the current directory contents into the container at /code
 ADD . /code
